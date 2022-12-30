@@ -2,6 +2,7 @@ import React from 'react';
 import Banner from '../Banner/Banner';
 import Scroll from '../Banner/Scroll';
 import ChooseSection from '../ChooseSection/ChooseSection';
+import Features from '../Features/Features';
 import NumberOfRating from '../NumberOfRating/NumberOfRating';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
@@ -19,6 +20,7 @@ const Home = () => {
             <Services></Services>
             <WorkWithUs></WorkWithUs>
             <ChooseSection></ChooseSection>
+            <Features></Features>
         </div>
     );
 };
