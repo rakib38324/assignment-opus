@@ -2,8 +2,8 @@ import React from 'react';
 
 const Team = () => {
     return (
-        <div className='mt-12'>
-            <p className='text-3xl font-bold text-center '>Trusted and lovely by the world's best teams</p>
+        <div className='mt-20'>
+            <p className='text-4xl font-bold text-center '>Trusted and lovely by the world's best teams</p>
             <div className='flex text-3xl justify-around pt-20 text-slate-400'>
                 <p>wetransfer</p>
                 <p className='flex'>
