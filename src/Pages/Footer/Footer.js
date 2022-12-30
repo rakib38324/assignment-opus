@@ -11,7 +11,7 @@ const Footer = () => {
             </p>
 
             <div className='grid lg:grid-cols-2'>
-                <div className='grid lg:grid-cols-3 font-semibold'>
+                <div className='grid lg:grid-cols-3 font-semibold pl-3'>
                     <div>
                         <p className='text-slate-400 pb-4'>Overview</p>
                         <p className='pb-4'>Overview</p>
@@ -56,9 +56,12 @@ const Footer = () => {
                 </div>
 
                 <div>
-                    <input type="text" placeholder="Email" className="input input-bordered w-full max-w-xs" />
-                    <button className='mt-9 py-3 px-4 text-white bg-blue-600 hover:bg-blue-400  lg:mt-0'>Get Started</button>
-                    <div className='flex'>
+                    <spam className='grid grid-cols-2'>
+
+                        <input type="text" placeholder="Email" className="input input-bordered w-full max-w-xs" />
+                        <button className=' py-3 px-4 text-white bg-blue-600 hover:bg-blue-400  lg:mt-0 sm:mt-0'>Get Started</button>
+                    </spam>
+                    <div className='flex m-2'>
                         <spam className='mt-5'>
                             <p className='text-slate-400 pt-5 font-semibold'>OPUS FOR WEBFLOW</p>
                             <p className='text-3xl font-bold text-blue-600 mt-4'>Lorem Ipsum</p>
@@ -68,7 +71,7 @@ const Footer = () => {
                             <p className='text-3xl font-bold text-blue-600 mt-4'>Lorem Ipsum</p>
                         </spam>
                     </div>
-                    <p className='mt-10'><spam className='text-slate-400'>© Template by</spam> <spam className='text-blue-600'>Lorem</spam><spam className='text-slate-400'>- Powered by </spam><spam className='text-blue-600'>Ipsum</spam></p>
+                    <p className='mt-10 mx-2'><spam className='text-slate-400'>© Template by</spam> <spam className='text-blue-600'>Lorem</spam><spam className='text-slate-400'>- Powered by </spam><spam className='text-blue-600'>Ipsum</spam></p>
                 </div>
             </div>
         </div>

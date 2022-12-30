@@ -2,7 +2,7 @@ import React from 'react';
 
 const NumberOfRating = () => {
     return (
-        <div className='lg:flex justify-around lg:py-48'>
+        <div className='lg:flex justify-around lg:pt-40'>
             <div className='mb-20'>
                 <p className='text-5xl font-bold text-center'>99.95%</p>
                 <p className='font-semibold pt-3 text-center'>Accuracy rate</p>
