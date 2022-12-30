@@ -7,8 +7,8 @@ const Banner = () => {
     return (
         <div className='grid lg:grid-cols-12 '>
             <div className='lg:col-span-8 bg-blue-900 mt-16 static'>
-                <div className=' lg:w-2/4 mx-auto mt-12'>
-                    <div className='text-center lg:text-left lg:text-6xl text-5xl text-white font-bold'>
+                <div className=' lg:w-2/4 mx-auto lg:mt-12'>
+                    <div className='text-center lg:text-left lg:text-6xl text-5xl text-white font-bold pt-10 lg:pt-0'>
                         <p>Build for </p>
                         <p>enterprice</p>
                         <p>Businesses.</p></div>
@@ -51,7 +51,7 @@ const Banner = () => {
 
 
             </div>
-            <div className='lg:col-span-4 bg-blue-500 mb-16'>
+            <div className='lg:col-span-4 bg-blue-500 lg:mb-16'>
 
             </div>
 

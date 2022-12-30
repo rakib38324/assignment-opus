@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => {
     return (
-        <div className='py-48 grid lg:grid-cols-6 max-w-screen-xl mx-auto justify-items-end '>
+        <div className='p-3 lg:py-48 grid lg:grid-cols-6 max-w-screen-xl mx-auto justify-items-end '>
             <div className='col-span-3'>
                 <p className='font-bold text-4xl'>
                     <p>Make your site</p>
@@ -13,7 +13,7 @@ const Services = () => {
                     <button className='mt-9 py-3 px-4 text-white bg-blue-600 hover:bg-blue-400'>Learn More</button>
                 </div>
             </div>
-            <div className='col-span-3'>
+            <div className='col-span-3 py-16 lg:py-0'>
                 <div>
 
                     <svg width="16" height="26" viewBox="0 0 16 26" fill="none" xmlns="http://www.w3.org/2000/svg">
