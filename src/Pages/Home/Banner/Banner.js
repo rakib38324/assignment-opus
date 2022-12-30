@@ -11,7 +11,7 @@ const Banner = () => {
                     <div className='text-center lg:text-left lg:text-6xl text-5xl text-white font-bold'>
                         <p>Build for </p>
                         <p>enterprice</p>
-                        <p>Businesses</p></div>
+                        <p>Businesses.</p></div>
                     <p className='py-6 px-5 text-center lg:text-left text-white lg:py-4 lg:pl-0 '>Opus includes everything you need to build a beautiful website for your business. Built to perform and look good doing so.
                     </p>
 
