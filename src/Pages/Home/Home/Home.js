@@ -4,6 +4,7 @@ import Scroll from '../Banner/Scroll';
 import ChooseSection from '../ChooseSection/ChooseSection';
 import Features from '../Features/Features';
 import NumberOfRating from '../NumberOfRating/NumberOfRating';
+import Resource from '../Resource/Resource';
 import Services from '../Services/Services';
 import Team from '../Team/Team';
 import Video from '../Video/Video';
@@ -21,6 +22,7 @@ const Home = () => {
             <WorkWithUs></WorkWithUs>
             <ChooseSection></ChooseSection>
             <Features></Features>
+            <Resource></Resource>
         </div>
     );
 };
